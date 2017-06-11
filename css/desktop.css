@@ -1,0 +1,384 @@
+/* -----------------------------------------------------
+
+GENERAL
+
+----------------------------------------------------- */
+h1 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'msbold';
+    font-size: 64px;
+    color: #fff;
+    }
+h2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'msbold';
+    font-size: 40px;
+    color: #eb2a53;
+    }
+
+/* -----------------------------------------------------
+
+HEADER
+
+----------------------------------------------------- */
+.header {
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1419;
+    }
+.header > div {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    }
+.header > div .logo {
+    float: left;
+    width: 165px;
+    height: 19px;
+    margin: 20px 0 0 20px;
+    padding: 0;
+    }
+.header > div .nav-menu {
+    float: right;
+    margin: 20px;
+    padding: 0;
+    font-size: 21px;
+    color: #fff;
+    }
+
+/* -----------------------------------------------------
+
+TOP SECTION
+
+----------------------------------------------------- */
+.top-section-wrapper {
+    float: left;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, .60),rgba(0, 0, 0, .60)), url(../images/top-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover cover;
+    }
+.top-section-inner {
+    display: table;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    }
+.tsi-scroll-down {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    font-size: 37px;
+    color: #fff;
+
+    -webkit-animation: scrollDownArrow 1s infinite;
+       -moz-animation: scrollDownArrow 1s infinite;
+         -o-animation: scrollDownArrow 1s infinite;
+            animation: scrollDownArrow 1s infinite;
+    }
+@-webkit-keyframes scrollDownArrow {
+    0% { bottom: 30px; }
+    50% { bottom: 20px; }
+    100% { bottom: 30px; }
+    }
+@-moz-keyframes scrollDownArrow {
+    0% { bottom: 30px; }
+    50% { bottom: 20px; }
+    100% { bottom: 30px; }
+    }
+@-o-keyframes scrollDownArrow {
+    0% { bottom: 30px; }
+    50% { bottom: 20px; }
+    100% { bottom: 30px; }
+    }
+@keyframes srcollDownArrow {
+    0% { bottom: 30px; }
+    50% { bottom: 20px; }
+    100% { bottom: 30px; }
+    }
+.tsi-content {
+    display: table-cell;
+
+    vertical-align: middle;
+    }
+.tsi-content > p {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: 'oslight';
+    font-size: 28px;
+    color: #fff;
+    }
+.tsi-content .subscribe-field {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px 0 0 0;
+    padding: 0 65px 0 0;
+    }
+.tsi-content .subscribe-field > input {
+    float: left;
+    width: 100%;
+    height: 65px;
+    margin: 0;
+    padding: 0 20px 2px;
+    font-family: 'ossemibold';
+    font-size: 22px;
+    color: #666;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+    }
+.tsi-content .subscribe-field > button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    padding: 0 0 2px 0;
+    font-size: 25px;
+    color: #fff;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #eb2a53;
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    cursor: pointer;
+    }
+.tsi-content .subscribe-field > button:hover {
+    background-color: #f2355d;
+    }
+
+/* -----------------------------------------------------
+
+MISSION SECTION
+
+----------------------------------------------------- */
+.mission-section-wrapper {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+.mission-section-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+.msi-content {
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 676px;
+    margin: 0;
+    padding: 0 500px 0 0;
+    }
+.msi-content > h2 {
+    margin-top: 100px;
+    }
+.msi-content > p {
+    float: left;
+    width: 100%;
+    margin: 25px 0 0 0;
+    padding: 0;
+    font-family: 'oslight';
+    font-size: 18px;
+    color: #4b4b4b;
+
+    line-height: 1.7;
+    }
+.msi-content > img {
+    position: absolute;
+    top: 125px;
+    right: 0;
+    width: 496px;
+    height: 509px;
+    margin: 0;
+    padding: 0;
+    }
+.msi-content-buttons {
+    float: left;
+    width: 100%;
+    margin: 35px 0 0  0;
+    padding: 0;
+    }
+.msi-content-buttons > a {
+    float: left;
+    width: 100%;
+    max-width: 120px;
+    height: 35px;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    font-family: 'msbold';
+    font-size: 12px;
+    color: #eb2a53;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eb2a53;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    background: linear-gradient(to right, transparent 50%, #eb2a53 50%);
+    background-size: 250% 100%;
+    }
+.msi-content-buttons > a:hover {
+    color: #fff;
+    background-position: -160px 0;
+    }
+/* -----------------------------------------------------
+
+INSTAGRAM SECTION
+
+----------------------------------------------------- */
+.instagram-section-wrapper {
+    float: left;
+    width: 100%;
+    min-height: 220px;
+    margin: 0;
+    padding: 30px 10px;
+    background-color: #192128;
+    }
+.instafeed-cont {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+.instagram-image {
+    float: left;
+    width: 11.11%;
+    margin: 0;
+    padding: 5px;
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    opacity: .5;
+    }
+.instagram-image:hover {
+    opacity: 1;
+    }
+.instagram-image > img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    }
+
+/* -----------------------------------------------------
+
+FOOTER
+
+----------------------------------------------------- */
+.footer {
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1419;
+    }
+.footer-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    }
+.footer-inner > ul {
+    float: left;
+    margin: 28px 20px;
+    padding: 0;
+    }
+.footer-inner > ul > li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0;
+    list-style: none;
+    }
+.footer-inner > ul > li > a {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'ossemibold';
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    }
+.footer-inner > ul > li > a:hover {
+    text-decoration: underline;
+    }
+.footer-inner .footer-social {
+    float: right;
+    margin: 4px 0 0 0;
+    padding: 0;
+    }
+.footer-inner .footer-social > span {
+    float: left;
+    margin: 16px 0 0 0;
+    padding: 10px 20px;
+    font-family: 'oslight';
+    font-size: 11px;
+    color: #fff;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #202932;
+    }
+.footer-inner .footer-social > ul {
+    float: left;
+    margin: 18px 0 0 0;
+    padding: 0;
+    }
+.footer-inner .footer-social > ul > li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 0;
+    list-style: none;
+    }
+.footer-inner .footer-social > ul > li > a {
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: .3s;
+       -moz-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+    }
